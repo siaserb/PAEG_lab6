@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="394dee4b-ffae-4c65-bf7e-d704a9b6dac5" name="Changes" comment="" />
+    <list default="true" id="394dee4b-ffae-4c65-bf7e-d704a9b6dac5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/elgamal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/br_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/br/br_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/br_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/br/br_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vk/vk_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/vk/vk_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voter/voter_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/voter/voter_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voter/voter_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/voter/voter_main.py" afterDir="false" />
+    </list>
+    <list id="b22dea59-0542-44bc-aa9e-18d3de915f5b" name="Changes by kubis" comment="">
+      <change beforePath="$PROJECT_DIR$/br/br_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/br/br_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vk/vk_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/vk/vk_functions.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/br/br_functions.py">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="0" changelist="b22dea59-0542-44bc-aa9e-18d3de915f5b" />
+        <range start1="2" end1="2" start2="1" end2="2" changelist="b22dea59-0542-44bc-aa9e-18d3de915f5b" />
+        <range start1="43" end1="43" start2="43" end2="50" changelist="394dee4b-ffae-4c65-bf7e-d704a9b6dac5" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2aSV1GDgvzCcUwGdjjsi9KthfIP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,10 +55,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.bbs.executor": "Run",
+    "Python.br_main.executor": "Run",
+    "Python.elgamal.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.vk_main.executor": "Run",
+    "Python.voter_main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/admin/Desktop/lab4"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\PAEG_lab6" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

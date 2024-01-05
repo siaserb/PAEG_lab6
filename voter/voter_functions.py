@@ -1,3 +1,4 @@
+import base64
 import socket
 
 
@@ -28,3 +29,23 @@ def receive_data(port):
     c.close()
     s.close()
     return received_data
+
+
+def decode_token(token):
+    decoded_data = base64.b64decode(token).decode()
+    voter_id, secret_number = map(int, decoded_data.split(':'))
+    return voter_id, secret_number
+
+
+def choose_candidate(candidates):
+    while True:
+        candidate = int(input('Введіть номер кандидата:'))
+        if candidate in candidates:
+            break
+        else:
+            print('Кандидат невірний!')
+            continue
+
+    return candidate
+
+

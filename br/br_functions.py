@@ -40,3 +40,10 @@ def check_user(login, password, users):
         if user['login'] == login and user['password'] == password:
             return True
     return False
+
+
+def check_token(login, serial_number_token, users):
+    for user in users:
+        if user['login'] == login and user['serial_number_token'] == serial_number_token:
+            return True
+    return False

@@ -7,12 +7,14 @@ for voter in range(potential_amount_of_voters):
     voter_ids.append(generate_id())
 print(voter_ids)
 
-send_data(str(voter_ids), 5000)
+send_data(str(voter_ids), 5010)
 
 tokens = eval(receive_data(5001).decode('utf-8'))
 print(tokens)
 
-serial_numbers_of_tokens = {i: token for i, token in enumerate(tokens, 1)}
+serial_numbers_of_tokens = {token: i for i, token in enumerate(tokens, 1)}
+
+print(serial_numbers_of_tokens)
 
 voter_1 = dict(name='Alisa', serial_number_token=1, login='alisa@gmail.com', password='76345')
 voter_2 = dict(name='Bob', serial_number_token=2, login='bob@gmail.com', password='12345')
@@ -26,7 +28,22 @@ voter_9 = dict(name='Ivan', serial_number_token=9, login='ivan@gmail.com', passw
 
 users = [voter_1, voter_2, voter_3, voter_4, voter_5, voter_6, voter_7, voter_8, voter_9]
 
-login, password = eval(receive_data(5002).decode('utf-8'))
+while True:
+    if input('Введіть exit, якщо хочете вийти') == 'exit':
+        break
+    user_login, user_password = eval(receive_data(5002).decode('utf-8'))
 
-print(check_user(login, password, users))
+    if check_user(user_login, user_password, users):
+        send_data(b'1', 5003)
+    else:
+        send_data(b'0', 5003)
+
+    user_token = receive_data(5004).decode('utf-8')
+
+    user_serial_number_token = serial_numbers_of_tokens.get(user_token)
+
+    if check_token(user_login, user_serial_number_token, users):
+        send_data(b'1', 5005)
+    else:
+        send_data(b'0', 5005)
 
